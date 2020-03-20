@@ -19,7 +19,7 @@ html {
 
 body {
   background: $sublimebg;
-  font: 18px/1.4 $lucida;
+  font: 9pt/1.4 $lucida;
   color: $sublimefg;
 }
 
@@ -45,27 +45,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 14pt;
   a {
     color: inherit;
   }
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 12pt;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 11pt;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 10pt;
   color: $gray;
 }
 
 p {
-  margin: 15px 0;
+  margin: 9pt 0;
 }
 
 a {
