@@ -18,9 +18,9 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  background: $sublimebg;
+  font: 18px/1.4 $lucida;
+  color: $sublimefg;
 }
 
 .container {
@@ -31,8 +31,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
+  font-family: $lucida;
+  color: $sublimefg;
   font-weight: bold;
 
   line-height: 1.7;
@@ -69,7 +69,7 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $jbcanchor;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
@@ -117,13 +117,13 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: $sublimefg;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
-  background: $lightGray;
+  color: $sublimefg;
+  background: $sublimebg;
 }
 ::selection {
   color: $black;
@@ -192,9 +192,9 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $sublimefg;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: $lucida;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -202,7 +202,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: $sublimefg;
   font-size: 16px;
 
   @include mobile {
@@ -213,7 +213,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  font-family: $lucida;
   font-size: 18px;
 
   @include mobile {
@@ -225,14 +225,14 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: $jbcanchor;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: $jbcanchor;
     }
   }
 }
@@ -275,7 +275,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: $sublimebg;
 }
 
 footer {
