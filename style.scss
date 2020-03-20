@@ -50,17 +50,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 14pt;
-  font-weight: bold;
-}
-
-h2 {
   font-size: 12pt;
   font-weight: bold;
 }
 
-h3 {
+h2 {
   font-size: 11pt;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 10pt;
+  font-weight: bold;
 }
 
 h4 {
@@ -69,7 +70,7 @@ h4 {
 
 p {
   line-height: 140%;
-  margin: 9pt 0;
+  margin: 9px 0;
 }
 
 a {
@@ -159,7 +160,7 @@ img {
 }
 
 .masthead {
-  padding: 20px 0;
+  padding: 4% 0;
 
   @include mobile {
     text-align: center;
@@ -206,7 +207,8 @@ img {
 .site-description {
   margin: -5px 0 0 0;
   color: $sublimefg;
-  font-size: 16px;
+  font-size: 12pt;
+  font-weight: bold;
 
   @include mobile {
     margin: 3px 0;
@@ -217,21 +219,20 @@ nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $lucida;
-  font-size: 18px;
+  font-size: 12pt;
 
   @include mobile {
     float: none;
     margin-top: 9px;
     display: block;
-    font-size: 16px;
+    font-size: 11pt;
   }
 
   a {
     margin-left: 20px;
     color: $jbcanchor;
     text-align: right;
-    font-weight: 300;
-    letter-spacing: 1px;
+    font-weight: bold;
 
     @include mobile {
       margin: 0 10px;
@@ -246,7 +247,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $sublimebg;
+  border-bottom: 1px solid $sublimefg;
 }
 
 .posts > .post:last-child {
@@ -269,8 +270,7 @@ nav {
   }
 
   .read-more {
-    text-transform: uppercase;
-    font-size: 15px;
+    font-size: 8pt;
   }
 }
 
