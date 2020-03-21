@@ -302,7 +302,14 @@ footer {
   text-align: center;
 }
 
-div#footer-links > a {margin: 0px 5px 0px 5px; text-decoration: underline;}
+div#footer-links {
+  margin: 5px 0px 5px 0px;
+  
+  a {
+    margin: 0px 5px 0px 5px; 
+    text-decoration: underline;
+  }
+}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
