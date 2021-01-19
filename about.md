@@ -10,4 +10,4 @@ My name is Joseph Bloomquist, and I'm a minimalist web developer.
 This is my blog, created using Jekyll and hosted using GitHub Pages!
 
 ### Contact Me
-[How to get in touch with me!](https://contact.josephbloomquist.com)
+[How to get in touch with me!](https://josephbloomquist.com)
